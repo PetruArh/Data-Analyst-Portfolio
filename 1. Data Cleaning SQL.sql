@@ -117,7 +117,7 @@ Update layoffs_staging2
 Set country = 'United States'
 Where country like 'United States%';
 
--- Sau V2
+-- Version 2
 
 Select DIstinct country, trim(trailing '.' from country)
 From layoffs_staging2
